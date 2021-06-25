@@ -2,6 +2,8 @@ import { Button } from "../components/Button";
 
 import logImg from "../assets/images/logo.svg";
 
+import "../styles/room.scss";
+
 export function Room() {
   return (
     <div id="page-room">
@@ -11,7 +13,8 @@ export function Room() {
           <div>Código</div>
         </div>
       </header>
-      <main className="content">
+
+      <main>
         <div className="room-title">
           <h1>Sala React</h1>
           <span>4 perguntas</span>
