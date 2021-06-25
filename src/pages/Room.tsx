@@ -1,4 +1,5 @@
 import { Button } from "../components/Button";
+import { RoomCode } from "../components/RoomCode";
 
 import logImg from "../assets/images/logo.svg";
 
@@ -10,7 +11,7 @@ export function Room() {
       <header>
         <div className="content">
           <img src={logImg} alt="Letmeask" />
-          <div>Código</div>
+          <RoomCode />
         </div>
       </header>
 
