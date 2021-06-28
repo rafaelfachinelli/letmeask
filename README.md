@@ -1,46 +1,115 @@
-# Getting Started with Create React App
+<p align="center">
+  <img alt="Letmeask" src=".github/banner.svg" width="250px"/>
+<p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center"> 
+  <img alt="Tamanho do Repositório" src="https://img.shields.io/github/repo-size/rafaelfachinelli/letmeask?color=3498db&style=for-the-badge">
+  <img alt="Último Commit no Repositório" src="https://img.shields.io/github/last-commit/rafaelfachinelli/realetmeaskdme?color=3498db&style=for-the-badge">
+  <a href="https://github.com/USUÁRIO">
+    <img alt="Desenvolvido por Rafael Fachinelli" src="https://img.shields.io/badge/Desenvolvedor-Rafael_Fachinelli-%3498db?color=3498db&style=for-the-badge">
+  </a>
+  <img alt="Licença do Projeto" src="https://img.shields.io/github/license/rafaelfachinelli/letmeask?color=3498db&style=for-the-badge"/>
+<p>
 
-## Available Scripts
+<p align="center">
+ <a href="#eye_speech_bubble-visualizar">Visualizar</a> •
+ <a href="#information_source-sobre">Sobre</a> •
+ <a href="#arrow_forward-executar">Executar</a> •
+ <a href="#hammer_and_wrench-tecnologias">Tecnologias</a> •
+ <a href="#boy-autor">Autor</a> •
+ <a href="#balance_scale-licença">Licença</a>
+</p>
 
-In the project directory, you can run:
+---
+## :eye_speech_bubble: **Visualizar**
 
-### `yarn start`
+<p align="center">
+  <img alt="Letmeask" src=".github/cover.svg" width="250px"/>
+<p>
+  
+---
+## :information_source: Sobre
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Projeto desenvolvido em uma semana durante o evento Next Level Week (NLW) Together, edição número 6. Tem o objetivo de utilizar ferramentas do React e do Firebase. Foi desenvolvido utilizando o recurso de autenticação e realtime database para criar salas e gerenciar perguntas que podem ser criadas por um usuário e gerenciadas por uma página específica do administrador.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
+## :arrow_forward: **Executar**
 
-### `yarn test`
+Para executar esse projeto você precisa clonar ou [`baixar`](https://github.com/USUARIO/REPOSITORIO/archive/main.zip) este repositório, ter o Gerenciador de Pacotes do Node ([`NPM`](https://www.npmjs.com/get-npm)) ou o Gerenciador de Pacotes YARN ([`YARN`](https://yarnpkg.com/getting-started)) instalado.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### :globe_with_meridians: **Web**
 
-### `yarn build`
+Abra o prompt de comando no diretório do projeto e execute os seguintes códigos:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<details>
+  <summary><i>com <b>npm</b></i></summary>
+  
+  ```bash
+  # Instalar dependências
+  $ npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  # Iniciar o servidor de desenvolvimento
+  $ npm start
+  ```
+  
+</details>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<details>
+  <summary><i>com <b>yarn</b></i></summary>
+  
+  ```bash
+  # Instalar dependências
+  $ yarn
 
-### `yarn eject`
+  # Iniciar o servidor de desenvolvimento
+  $ yarn start
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+  ```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+</details>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+> ⚠️ O servidor de desenvolvimento será iniciado na porta:3000 - Acesse <http://localhost:3000>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
+## :hammer_and_wrench: **Tecnologias**
 
-## Learn More
+As seguintes ferramentas foram utilizadas para desenvolver esse projeto:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<div align="center">
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+|:globe_with_meridians: Web|
+|:---:|
+|[React](https://exemplo.com)|
+|[Firebase](https://exemplo.com)|
+|[TypeScript](https://exemplo.com)|
+
+</div>
+
+---
+## :boy: **Autor**
+
+<div align="center">
+
+<a href="https://github.com/rafaelfachinelli">
+ <img src="https://github.com/rafaelfachinelli.png" width="100px;" alt="Imagem de Perfil Rafael Fachinelli"/>
+ <br/>
+ <sub><b>Rafael Fachinelli</b></sub>
+</a>
+
+Desenvolvido com ❤️ por Rafael Fachinelli 👋🏽 Entre em contato!
+
+[![Linkedin Badge](https://img.shields.io/badge/-Rafael_Fachinelli-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/rafaelfachinelli)
+[![Github Badge](https://img.shields.io/badge/-rafaelfachinelli-000?style=flat-square&logo=Github&logoColor=white)](https://github.com/rafaelfachinelli)
+[![Outlook Badge](https://img.shields.io/badge/-rafael.fachinelli@fatec.sp.gov.br-0078d4?style=flat-square&logo=microsoft-outlook&logoColor=white)](mailto:rafael.fachinelli@fatec.sp.gov.br)
+
+</div>
+
+---
+## :balance_scale: **Licença**
+
+<div align="center">
+
+Copyright © 2021 [Rafael Fachinelli](https://github.com/rafaelfachinelli).<br />
+Este projeto é licenciado por [MIT](./LICENSE).
+
+</div>
