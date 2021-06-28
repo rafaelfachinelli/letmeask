@@ -24,7 +24,7 @@
 ## :eye_speech_bubble: **Visualizar**
 
 <p align="center">
-  <img alt="Letmeask" src=".github/cover.svg" width="250px"/>
+  <img alt="Letmeask" src=".github/cover.svg" width="400px"/>
 <p>
   
 ---
