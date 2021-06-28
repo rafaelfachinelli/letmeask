@@ -35,7 +35,7 @@ Projeto desenvolvido em uma semana durante o evento Next Level Week (NLW) Togeth
 ---
 ## :arrow_forward: **Executar**
 
-Para executar esse projeto você precisa clonar ou [`baixar`](https://github.com/USUARIO/REPOSITORIO/archive/main.zip) este repositório, ter o Gerenciador de Pacotes do Node ([`NPM`](https://www.npmjs.com/get-npm)) ou o Gerenciador de Pacotes YARN ([`YARN`](https://yarnpkg.com/getting-started)) instalado.
+Para executar esse projeto você precisa clonar ou [`baixar`](https://github.com/rafaelfachinelli/letmeask/archive/main.zip) este repositório, ter o Gerenciador de Pacotes do Node ([`NPM`](https://www.npmjs.com/get-npm)) ou o Gerenciador de Pacotes YARN ([`YARN`](https://yarnpkg.com/getting-started)) instalado.
 
 ### :globe_with_meridians: **Web**
 
