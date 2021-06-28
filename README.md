@@ -3,12 +3,12 @@
 <p>
 
 <p align="center"> 
-  <img alt="Tamanho do Repositório" src="https://img.shields.io/github/repo-size/rafaelfachinelli/letmeask?color=3498db&style=for-the-badge">
-  <img alt="Último Commit no Repositório" src="https://img.shields.io/github/last-commit/rafaelfachinelli/realetmeaskdme?color=3498db&style=for-the-badge">
-  <a href="https://github.com/USUÁRIO">
-    <img alt="Desenvolvido por Rafael Fachinelli" src="https://img.shields.io/badge/Desenvolvedor-Rafael_Fachinelli-%3498db?color=3498db&style=for-the-badge">
+  <img alt="Tamanho do Repositório" src="https://img.shields.io/github/repo-size/rafaelfachinelli/letmeask?color=835afd&style=for-the-badge">
+  <img alt="Último Commit no Repositório" src="https://img.shields.io/github/last-commit/rafaelfachinelli/letmeask?color=835afd&style=for-the-badge">
+  <a href="https://github.com/rafaelfachinelli">
+    <img alt="Desenvolvido por Rafael Fachinelli" src="https://img.shields.io/badge/Desenvolvedor-Rafael_Fachinelli-%835afd?color=835afd&style=for-the-badge">
   </a>
-  <img alt="Licença do Projeto" src="https://img.shields.io/github/license/rafaelfachinelli/letmeask?color=3498db&style=for-the-badge"/>
+  <img alt="Licença do Projeto" src="https://img.shields.io/github/license/rafaelfachinelli/letmeask?color=835afd&style=for-the-badge"/>
 <p>
 
 <p align="center">
