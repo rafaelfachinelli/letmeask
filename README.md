@@ -79,9 +79,9 @@ As seguintes ferramentas foram utilizadas para desenvolver esse projeto:
 
 |:globe_with_meridians: Web|
 |:---:|
-|[React](https://exemplo.com)|
-|[Firebase](https://exemplo.com)|
-|[TypeScript](https://exemplo.com)|
+|[React](https://reactjs.org)|
+|[Firebase](https://firebase.google.com)|
+|[TypeScript](https://www.typescriptlang.org)|
 
 </div>
 
