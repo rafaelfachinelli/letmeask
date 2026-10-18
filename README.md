@@ -1,115 +1,124 @@
 <p align="center">
-  <img alt="Letmeask" src=".github/banner.svg"/>
-<p>
-
-<p align="center"> 
-  <img alt="Tamanho do Repositório" src="https://img.shields.io/github/repo-size/rafaelfachinelli/letmeask?color=835afd&style=for-the-badge">
-  <img alt="Último Commit no Repositório" src="https://img.shields.io/github/last-commit/rafaelfachinelli/letmeask?color=835afd&style=for-the-badge">
-  <a href="https://github.com/rafaelfachinelli">
-    <img alt="Desenvolvido por Rafael Fachinelli" src="https://img.shields.io/badge/Desenvolvedor-Rafael_Fachinelli-%835afd?color=835afd&style=for-the-badge">
-  </a>
-  <img alt="Licença do Projeto" src="https://img.shields.io/github/license/rafaelfachinelli/letmeask?color=835afd&style=for-the-badge"/>
-<p>
+  <img alt="Letmeask" src=".github/banner.svg" width="400px"/>
+</p>
 
 <p align="center">
- <a href="#eye_speech_bubble-visualizar">Visualizar</a> •
- <a href="#information_source-sobre">Sobre</a> •
- <a href="#arrow_forward-executar">Executar</a> •
- <a href="#hammer_and_wrench-tecnologias">Tecnologias</a> •
- <a href="#boy-autor">Autor</a> •
- <a href="#balance_scale-licença">Licença</a>
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/rafaelfachinelli/letmeask?color=3498db&style=for-the-badge">
+  <img alt="Last commit" src="https://img.shields.io/github/last-commit/rafaelfachinelli/letmeask?color=3498db&style=for-the-badge">
+  <a href="https://rafaelfachinelli.com">
+    <img alt="Developed by Rafael Fachinelli" src="https://img.shields.io/badge/Developer-Rafael_Fachinelli-3498db?style=for-the-badge">
+  </a>
+  <img alt="License" src="https://img.shields.io/badge/License-MIT-3498db?style=for-the-badge">
+</p>
+
+<p align="center">
+  <a href="#eye_speech_bubble-preview">Preview</a> •
+  <a href="#information_source-about">About</a> •
+  <a href="#memo-tasks">Tasks</a> •
+  <a href="#arrow_forward-run">Run</a> •
+  <a href="#hammer_and_wrench-technologies">Technologies</a> •
+  <a href="#boy-author">Author</a> •
+  <a href="#balance_scale-license">License</a>
 </p>
 
 ---
-## :eye_speech_bubble: **Visualizar**
 
-<p align="center">
-  <img alt="Letmeask" src=".github/cover.svg" width="400px"/>
-<p>
-  
----
-## :information_source: Sobre
-
-Projeto desenvolvido em uma semana durante o evento Next Level Week (NLW) Together, edição número 6. Tem o objetivo de utilizar ferramentas do React e do Firebase. Foi desenvolvido utilizando o recurso de autenticação e realtime database para criar salas e gerenciar perguntas que podem ser criadas por um usuário e gerenciadas por uma página específica do administrador.
-
----
-## :arrow_forward: **Executar**
-
-Para executar esse projeto você precisa clonar ou [`baixar`](https://github.com/rafaelfachinelli/letmeask/archive/main.zip) este repositório, ter o Gerenciador de Pacotes do Node ([`NPM`](https://www.npmjs.com/get-npm)) ou o Gerenciador de Pacotes YARN ([`YARN`](https://yarnpkg.com/getting-started)) instalado.
-
-### :globe_with_meridians: **Web**
-
-Abra o prompt de comando no diretório do projeto e execute os seguintes códigos:
-
-<details>
-  <summary><i>com <b>npm</b></i></summary>
-  
-  ```bash
-  # Instalar dependências
-  $ npm install
-
-  # Iniciar o servidor de desenvolvimento
-  $ npm start
-  ```
-  
-</details>
-
-<details>
-  <summary><i>com <b>yarn</b></i></summary>
-  
-  ```bash
-  # Instalar dependências
-  $ yarn
-
-  # Iniciar o servidor de desenvolvimento
-  $ yarn start
-
-  ```
-
-</details>
-
-> ⚠️ O servidor de desenvolvimento será iniciado na porta:3000 - Acesse <http://localhost:3000>
-
----
-## :hammer_and_wrench: **Tecnologias**
-
-As seguintes ferramentas foram utilizadas para desenvolver esse projeto:
+## :eye_speech_bubble: Preview
 
 <div align="center">
 
-|:globe_with_meridians: Web|
-|:---:|
-|[React](https://reactjs.org)|
-|[Firebase](https://firebase.google.com)|
-|[TypeScript](https://www.typescriptlang.org)|
+<img src=".github/cover.svg" alt="Letmeask" width="500px"/>
 
 </div>
 
 ---
-## :boy: **Autor**
+
+## :information_source: About
+
+🗣 Live Q&A rooms for streams and events. Sign in with Google, create a room and share its code; the audience sends questions and likes them in real time, and the room admin can highlight a question, mark it as answered, delete it or close the room.
+
+Built in 2021 during Rocketseat's Next Level Week #6 Together, with Firebase Authentication and Realtime Database.
+
+---
+
+## :memo: Tasks
+
+<div align="center">
+<details>
+<summary>Click to view</summary>
+
+|State|Task|
+|:---:|:---|
+|:heavy_check_mark:|Sign in with Google (Firebase Authentication)|
+|:heavy_check_mark:|Create a room and join one by code|
+|:heavy_check_mark:|Send questions in real time|
+|:heavy_check_mark:|Like questions|
+|:heavy_check_mark:|Admin room: highlight, mark as answered and delete questions|
+|:heavy_check_mark:|Close the room|
+|:heavy_check_mark:|Auth context and useAuth / useRoom hooks|
+|:heavy_check_mark:|Realtime Database security rules|
+
+</details>
+</div>
+
+---
+
+## :arrow_forward: Run
+
+You need [Node.js](https://nodejs.org/), [Yarn](https://yarnpkg.com/) and a [Firebase](https://firebase.google.com/) project with Google sign-in and Realtime Database enabled.
+
+```bash
+# Create the environment file and fill in your Firebase keys
+cp .env.example .env.local
+
+# Install dependencies
+yarn
+
+# Start the development server
+yarn start
+```
+
+> The app opens at <http://localhost:3000>.
+
+---
+
+## :hammer_and_wrench: Technologies
 
 <div align="center">
 
-<a href="https://github.com/rafaelfachinelli">
- <img src="https://github.com/rafaelfachinelli.png" width="100px;" alt="Imagem de Perfil Rafael Fachinelli"/>
- <br/>
- <sub><b>Rafael Fachinelli</b></sub>
+|Web|Backend as a service|
+|:---:|:---:|
+|[React](https://react.dev/)|[Firebase Authentication](https://firebase.google.com/products/auth)|
+|[TypeScript](https://www.typescriptlang.org/)|[Firebase Realtime Database](https://firebase.google.com/products/realtime-database)|
+|[React Router](https://reactrouter.com/)|[Firebase Hosting](https://firebase.google.com/products/hosting)|
+|[Sass](https://sass-lang.com/)||
+|[classnames](https://github.com/JedWatson/classnames)||
+
+</div>
+
+---
+
+## :boy: Author
+
+<div align="center">
+
+<a href="https://rafaelfachinelli.com">
+  <img src="https://github.com/rafaelfachinelli.png" width="100px" alt="Rafael Fachinelli"/>
+  <br/>
+  <sub><b>Rafael Fachinelli</b></sub>
 </a>
 
-Desenvolvido com ❤️ por Rafael Fachinelli 👋🏽 Entre em contato!
+Tech Lead and software engineer. Get in touch!
 
-[![Linkedin Badge](https://img.shields.io/badge/-Rafael_Fachinelli-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/rafaelfachinelli)
-[![Github Badge](https://img.shields.io/badge/-rafaelfachinelli-000?style=flat-square&logo=Github&logoColor=white)](https://github.com/rafaelfachinelli)
-[![Outlook Badge](https://img.shields.io/badge/-rafael.fachinelli@fatec.sp.gov.br-0078d4?style=flat-square&logo=microsoft-outlook&logoColor=white)](mailto:rafael.fachinelli@fatec.sp.gov.br)
+[![Portfolio](https://img.shields.io/badge/-rafaelfachinelli.com-3498db?style=flat-square&logo=googlechrome&logoColor=white)](https://rafaelfachinelli.com)
+[![LinkedIn](https://img.shields.io/badge/-Rafael_Fachinelli-0a66c2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rafaelfachinelli/)
+[![GitHub](https://img.shields.io/badge/-rafaelfachinelli-000?style=flat-square&logo=github&logoColor=white)](https://github.com/rafaelfachinelli)
+[![E-mail](https://img.shields.io/badge/-rafael.l.a.fachinelli@gmail.com-ea4335?style=flat-square&logo=gmail&logoColor=white)](mailto:rafael.l.a.fachinelli@gmail.com)
 
 </div>
 
 ---
-## :balance_scale: **Licença**
 
-<div align="center">
+## :balance_scale: License
 
-Copyright © 2021 [Rafael Fachinelli](https://github.com/rafaelfachinelli).<br />
-Este projeto é licenciado por [MIT](./LICENSE).
-
-</div>
+This project is under the [MIT license](./LICENSE).
